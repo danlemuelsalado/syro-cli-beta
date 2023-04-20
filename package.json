@@ -1,0 +1,33 @@
+{
+  "name": "syro-cli-beta",
+  "version": "1.0.0",
+  "description": "Inject secrets from your Syro project using the Syro CLI.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danlemuelsalado/syro-cli-beta.git"
+  },
+  "keywords": [
+    "cli",
+    "secrets",
+    "management"
+  ],
+  "author": "Syro, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danlemuelsalado/syro-cli-beta/issues"
+  },
+  "homepage": "https://github.com/danlemuelsalado/syro-cli-beta#readme",
+  "dependencies": {
+    "go-npm": "^0.1.9"
+  },
+  "goBinary": {
+      "name": "syro-cli-beta",
+      "path": "./bin",
+      "url": "https://github.com/danlemuelsalado/syro-cli-beta/releases/download/v{{version}}/myGoPackage_{{version}}_{{platform}}_{{arch}}.tar.gz"
+  }
+}
