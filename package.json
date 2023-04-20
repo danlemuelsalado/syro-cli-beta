@@ -1,6 +1,6 @@
 {
   "name": "syro-cli-beta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inject secrets from your Syro project using the Syro CLI.",
   "main": "index.js",
   "scripts": {

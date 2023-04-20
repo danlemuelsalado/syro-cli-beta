@@ -7,9 +7,9 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
 builds:
-  - binary: syro-cli-beta
   - env:
       - CGO_ENABLED=0
+    binary: syro-cli-beta
     goos:
       - linux
       - windows
